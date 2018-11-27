@@ -1,0 +1,33 @@
+body{
+  background-color: #3C91E6;
+}
+.jumbotron 
+{
+    margin-bottom: 0;
+    background-color: #909FAF;
+    color: purple;
+}
+.navbar
+{
+    margin-bottom: 0px;
+    border-radius: 0;
+}
+article 
+{
+	padding: 40px;
+}
+footer 
+{
+	background-color: #555;
+    padding: 25px;
+}
+#display,#result,#resultxml
+{
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  overflow-y: auto;
+  max-height:300px;
+  box-sizing: border-box;
+  z-index: 1001;
+}
